@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zn-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>關於職旅</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main>
+      <!-- banner行動版 -->
+      <div
+        class="mt-9 py-9 px-3 d-xl-none"
+        style="
+          background-image: url('../assets/images/serivice/banner-bg.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      >
+        <h1 class="text-center fs-t-5xl fw-bold mb-6">關於職旅</h1>
+        <p class="text-center text-Natural-50 fs-b-lg">
+          職旅 WorkWay
+          匯集了來自不同領域、擁有豐富實戰經驗的自由工作者與數位遊牧專家。根據你的需求和階段，我們提供一對一諮詢。
+        </p>
+        <p class="text-center text-Natural-50 fs-b-lg">
+          無論你是剛開始探索期，還是已在轉型路上遇到瓶頸，我們都能提供適合你的專業指導。
+        </p>
+      </div>
+
+      <!-- banner桌機版 -->
+      <div
+        class="d-xl-block d-none"
+        style="
+          background-image: url('../assets/images/serivice/banner-bg-pc.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      >
+        <div
+          class="container text-center mt-12 px-auto py-12 position-relative"
+        >
+          <h1 class="fs-xl-md-5xl fw-bold mb-9">關於職旅</h1>
+          <p class="text-Natural-50 fs-xl-md-b-lg mx-auto" style="width: 800px">
+            職旅 WorkWay
+            匯集了來自不同領域、擁有豐富實戰經驗的自由工作者與數位遊牧專家。根據你的需求和階段，我們提供一對一諮詢。
+          </p>
+          <p class="text-Natural-50 fs-xl-md-b-lg mx-auto" style="width: 800px">
+            無論你是剛開始探索期，還是已在轉型路上遇到瓶頸，我們都能提供適合你的專業指導。
+          </p>
+          <img
+            src="../assets/images/serivice/banner-person.svg"
+            alt="banner-person"
+            class="position-absolute righttranslate-middle"
+            style="top: 70%; right: 10%"
+          />
+        </div>
+      </div>
+
+      <!-- 精實的職旅夥伴 -->
+      <div class="container py-lg-12 py-9">
+        <!-- 標題 -->
+        <div class="text-center" data-aos="zoom-in">
+          <h2 class="fw-bold fs-lg-md-t-4xl fs-t-4xl mb-lg-6 mb-4">
+            精實的職旅夥伴
+          </h2>
+          <p class="text-Natural-50 fs-lg-md-b-lg fs-b-lg">
+            我們相信，最好的指導來自於那些已經走過你想走的路，並願意伸出手拉你一把的人。
+          </p>
+        </div>
+        <!-- 夥伴介紹卡片 -->
+        <section class="my-lg-9 my-6 gap-6" data-aos="zoom-in">
+          <div
+            class="container d-flex align-items-stretch flex-nowrap gap-6 overflow-hidden"
+          >
+            <div class="col-lg-3 col-12">
+              <div class="card rounded h-100" style="max-width: 320px">
+                <div class="card-header p-0 rounded-top">
+                  <img
+                    src="../assets/images/about/mentor-1.png"
+                    class="w-100 rounded-top"
+                    alt="陳志遠 Ethan Chen"
+                  />
+                </div>
+                <div class="card-body pb-lg-6">
+                  <h4 class="text-Natural-50 fs-lg-md-b-md fs-b-md mb-2">
+                    數位遊牧先驅
+                  </h4>
+                  <h3 class="fw-bold fs-lg-md-t-2xl fs-t-2xl mb-4">
+                    陳志遠 Ethan Chen
+                  </h3>
+                  <div class="d-flex flex-wrap gap-2">
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 遠端工作策略</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 數位遊牧生活設計</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card rounded h-100" style="max-width: 320px">
+                <div class="card-header p-0 rounded-top">
+                  <img
+                    src="../assets/images/about/mentor-2.png"
+                    class="w-100 rounded-top"
+                    alt="林曉彤 Clara Lin"
+                  />
+                </div>
+                <div class="card-body pb-lg-6">
+                  <h4 class="text-Natural-50 fs-lg-md-b-md fs-b-md mb-2">
+                    個人品牌策略專家
+                  </h4>
+                  <h3 class="fw-bold fs-lg-md-t-2xl fs-t-2xl mb-4">
+                    林曉彤 Clara Lin
+                  </h3>
+                  <div class="d-flex flex-wrap gap-2">
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 個人品牌建立</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 內容行銷策略</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 故事行銷</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card rounded h-100" style="max-width: 320px">
+                <div class="card-header p-0 rounded-top">
+                  <img
+                    src="../assets/images/about/mentor-3.png"
+                    class="w-100 rounded-top"
+                    alt="王建明 Marcus"
+                  />
+                </div>
+                <div class="card-body pb-lg-6">
+                  <h4 class="text-Natural-50 fs-lg-md-b-md fs-b-md mb-2">
+                    財務自由規劃顧問
+                  </h4>
+                  <h3 class="fw-bold fs-lg-md-t-2xl fs-t-2xl mb-4">
+                    王建明 Marcus
+                  </h3>
+                  <div class="d-flex flex-wrap gap-2">
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 稅務優化</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 被動收入建立</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 現金流管理</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card rounded h-100" style="max-width: 320px">
+                <div class="card-header p-0 rounded-top">
+                  <img
+                    src="../assets/images/about/mentor-4.png"
+                    class="w-100 rounded-top"
+                    alt="張雅琳 Ariel"
+                  />
+                </div>
+                <div class="card-body pb-lg-6">
+                  <h4 class="text-Natural-50 fs-lg-md-b-md fs-b-md mb-2">
+                    創意接案與多元收入專家
+                  </h4>
+                  <h3 class="fw-bold fs-lg-md-t-2xl fs-t-2xl mb-4">
+                    張雅琳 Ariel
+                  </h3>
+                  <div class="d-flex flex-wrap gap-2">
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 創意變現策略</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 線上課程開發</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card rounded h-100" style="max-width: 320px">
+                <div class="card-header p-0 rounded-top">
+                  <img
+                    src="../assets/images/about/mentor-5.png"
+                    class="w-100 rounded-top"
+                    alt="李俊宏 Kevin Lee"
+                  />
+                </div>
+                <div class="card-body pb-lg-6">
+                  <h4 class="text-Natural-50 fs-lg-md-b-md fs-b-md mb-2">
+                    遠端工作技術顧問
+                  </h4>
+                  <h3 class="fw-bold fs-lg-md-t-2xl fs-t-2xl mb-4">
+                    李俊宏 Kevin Lee
+                  </h3>
+                  <div class="d-flex flex-wrap gap-2">
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 專案管理自動化</a
+                    >
+                    <a
+                      href="#"
+                      class="text-Natural-50 fs-lg-md-b-sm fs-b-sm border rounded py-1 px-2"
+                      ># 虛擬團隊管理</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 團隊承諾 -->
+        <section
+          class="text-center bg-primary-60 rounded pt-lg-6 pb-lg-9 px-lg-6 pt-4 pb-6 px-6"
+          data-aos="fade-up"
+        >
+          <div class="mx-auto" style="position: relative; width: 120px">
+            <!-- 文字區塊 -->
+            <p
+              class="bg-light text-primary-60 fw-bold fs-lg-md-t-xl fs-t-xl rounded px-lg-5 py-lg-3 px-6 py-4 mb-lg-9 mb-4"
+              style="z-index: 2; position: relative"
+            >
+              團隊承諾
+            </p>
+            <!-- 傾斜的正方形 -->
+            <div
+              style="
+                width: 28px;
+                height: 28px;
+                background-color: #fcfcfd;
+                transform: rotate(45deg);
+                position: absolute;
+                top: 60%;
+                left: 40%;
+                z-index: 1;
+              "
+            ></div>
+          </div>
+
+          <p class="text-light mx-auto" style="max-width: 800px">
+            我們不只是顧問，更是你職業轉型路上的夥伴與同行者。我們深知轉型過程中的不確定與恐懼，也經歷過停滯不前的困境。正因如此，我們更懂得如何陪你走過這段旅程，不只指引方向，更與你並肩同行。
+          </p>
+          <div>
+            <img
+              src="../assets/images/about/text-pc.svg"
+              alt="手寫文字pc"
+              class="mx-auto mt-lg-9 d-lg-block d-none"
+            />
+            <img
+              src="../assets/images/about/text-mb.svg"
+              alt="手寫文字mb"
+              class="mt-6 d-lg-none d-block w-100"
+            />
+          </div>
+        </section>
+      </div>
+
+      <!-- 公司資訊 -->
+      <section class="bg-Natural-95" data-aos="zoom-in">
+        <div class="container py-lg-12 py-9 bg-Natural-95">
+          <div class="row">
+            <!-- 標題 -->
+            <div class="text-center">
+              <h2 class="fw-bold fs-lg-md-t-4xl fs-t-4xl mb-lg-9 mb-6">
+                公司資訊
+              </h2>
+            </div>
+            <!-- 內容 -->
+            <div>
+              <ul
+                class="bg-light rounded p-lg-9 p-6"
+                style="list-style-type: none"
+              >
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    公司位置
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >110台北市信義區信義路五段7號</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    負責人
+
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >張世明</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    聯絡專線
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >02-2758-6600</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    營業時間
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >週一至週五 10:00～18:00（國定假日休息）</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    電子郵件
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >contact@workway.tw</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    成立時間
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >2023 年 6 月</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <h3
+                    class="fw-bold text-Natural-50 fs-lg-md-b-lg fs-b-md p-lg-6 p-4 border-bottom"
+                  >
+                    統一編號
+
+                    <span class="text-black fw-medium ms-lg-6 ms-4"
+                      >83149276</span
+                    >
+                  </h3>
+                </li>
+                <li>
+                  <!-- 桌機版：最大 1200px，寬度自適應 -->
+                  <div class="d-none d-lg-block mt-lg-9 text-center">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.002747143197!2d121.56196397525805!3d25.033980838292585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6da9c9e1f%3A0x1206bcf082fd10a6!2zVGFpcGVpIDEwMSwgTm8uIDfkv6Hnvqnot6_kupTmrrXkv6HnvqnljYDlj7DljJfluIIxMTA!5e0!3m2!1szh-TW!2stw!4v1755188689280!5m2!1szh-TW!2stw"
+                      style="
+                        border: 0;
+                        width: 100%;
+                        max-width: 1200px;
+                        height: 400px;
+                      "
+                      allowfullscreen
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
+                  </div>
+
+                  <!-- 手機 / 平板：全寬 -->
+                  <div class="d-lg-none mt-6">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.002747143197!2d121.56196397525805!3d25.033980838292585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6da9c9e1f%3A0x1206bcf082fd10a6!2zVGFpcGVpIDEwMSwgTm8uIDfkv6Hnvqnot6_kupTmrrXkv6HnvqnljYDlj7DljJfluIIxMTA!5e0!3m2!1szh-TW!2stw!4v1755188689280!5m2!1szh-TW!2stw"
+                      style="border: 0; width: 100%; height: 300px"
+                      allowfullscreen
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 預約免費職涯探索 -->
+      <section class="container py-lg-8" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <div
+              class="card border border-2 rounded bg-primary-60 py-4 px-6 py-lg-6 px-lg-9"
+            >
+              <div class="card-body p-0">
+                <div style="border-bottom: 1px dashed #fcfcfd">
+                  <img
+                    src="../assets/images/serivice/logo-icon-w.svg"
+                    alt="logo-icon"
+                  />
+                  <div class="my-6">
+                    <h3
+                      class="card-title fs-t-4xl fs-lg-md-t-4xl fw-bold text-light mb-2"
+                    >
+                      邁向你真正想過的生活，從這裡開始
+                    </h3>
+                    <p class="card-text fs-b-lg fs-lg-md-b-lg text-light mb-2">
+                      第一次諮詢只要 30 分鐘，可能改變你未來 30 年的生活方式
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="text-light d-lg-flex justify-content-between mt-lg-6"
+                >
+                  <div class="d-lg-flex align-items-center gap-lg-6">
+                    <p class="my-4">
+                      <span class="material-icons-outlined align-bottom me-2">
+                        phone </span
+                      >0800-123-123
+                    </p>
+                    <p class="mb-6 mb-lg-0">
+                      <span class="material-icons-outlined align-bottom me-2">
+                        mail </span
+                      >Sample@mail.com
+                    </p>
+                  </div>
+                  <div>
+                    <a href="#" class="btn btn-dark rounded py-3 ps-3 pe-2"
+                      >預約免費職涯探索<span
+                        class="material-icons-outlined align-top"
+                      >
+                        chevron_right
+                      </span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

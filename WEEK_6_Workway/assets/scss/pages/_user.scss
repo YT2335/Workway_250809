@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+  .w-xl-auto {
+    width: auto !important;
+  }
+  .border-xl {
+    border: 1px solid $Natural-85;
+  }
+  .mw-xl {
+    max-width: 300px;
+    width: 100%;
+  }
+}
