@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="zn-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>隱私權政策</title>
+    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-C8pSxF-t.js"></script>
+    <link rel="stylesheet" crossorigin href="/web-layout-training-vite/assets/main-C1rGeFJJ.css">
+  </head>
+  <body>
+    <nav
+  class="navbar navbar-light navbar-expand-lg bg-light border-bottom border-Natural-85 fixed-top"
+>
+  <div class="container my-lg-3 my-3">
+    <!-- Workway logo -->
+    <a class="navbar-brand" href="index.html"
+      ><img src="/web-layout-training-vite/assets/logo-CRTeTChE.svg" alt="Workway logo"
+    /></a>
+
+    <div class="d-flex align-items-center gap-2 d-lg-none">
+      <!-- 行動版「登入/註冊」按鈕 -->
+      <button
+        type="button"
+        class="btn btn-light border rounded-1 py-2 px-4"
+        data-bs-toggle="modal"
+        data-bs-target="#loginModal"
+      >
+        登入/註冊
+      </button>
+      <button
+        class="navbar-toggler border-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 gap-6">
+          <li class="nav-item text-center fs-lg-md-b-md fs-b-sm">
+            <a
+              class="nav-link py-2 active"
+              aria-current="page"
+              href="service.html"
+              >服務方案</a
+            >
+          </li>
+          <li class="nav-item text-center fs-lg-md-b-md fs-b-sm">
+            <a class="nav-link py-2" href="about.html">關於職旅</a>
+          </li>
+          <li class="nav-item text-center fs-lg-md-b-md fs-b-sm">
+            <a class="nav-link py-2" href="contact.html">聯絡我們</a>
+          </li>
+          <!-- 漢堡選單內的「登入/註冊」按鈕 -->
+          <button
+            type="button"
+            class="btn btn-secondary-50 fw-bold w-100 border rounded-1 py-2 px-4 d-lg-none d-block"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            登入/註冊
+          </button>
+        </ul>
+        <!-- PC版「登入/註冊」按鈕 -->
+        <button
+          type="button"
+          class="btn btn-light border rounded-1 px-lg-6 d-none d-lg-block"
+          data-bs-toggle="modal"
+          data-bs-target="#loginModal"
+        >
+          登入/註冊
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- 登入Modal -->
+<div
+  class="modal fade"
+  id="loginModal"
+  tabindex="-1"
+  aria-labelledby="loginModal"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-centered modal-lg"
+    style="width: 90%; max-width: 1200px"
+  >
+    <div class="modal-content rounded">
+      <div class="modal-body d-lg-flex p-4 p-lg-0 border rounded">
+        <!-- 登入圖片 -->
+        <div class="d-none d-lg-block">
+          <img
+            src="/web-layout-training-vite/assets/login-DRI71ClI.png"
+            alt="登入圖片"
+            class="rounded-start img-fluid"
+            style="max-width: 700px"
+          />
+        </div>
+
+        <!-- 登入資訊 -->
+        <div class="d-lg-flex flex-lg-column w-100 px-3 px-lg-5 py-3 py-lg-0">
+          <div class="text-end">
+            <button
+              type="button"
+              class="btn-close mt-3 mt-lg-6 me-3 me-lg-6"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <h1 class="fw-bold text-center mb-4 mb-lg-9 fs-lg-md-t-4xl fs-t-4xl">
+            登入
+          </h1>
+
+          <div>
+            <div
+              class="d-lg-flex flex-lg-column d-flex flex-column border-bottom"
+            >
+              <a
+                href="#"
+                class="w-100 border rounded bg-light py-3 text-center mb-3 mb-lg-4"
+              >
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJfSURBVHgBtVTNbtNAEJ5Z2xWYn7q3hpMLFyQO5BCqHJDYKnBOaHtohUTDE0AugMSBSOUByhMkuVCCQIQzIXElDhVEarghcag5VAWkSE5pocLxLmu3buw0dSJV/SRb49mZb76Z3TXCENikSd23Y8aqOSgejyZKUIngAiDPiDCtu8It4FhxGC/FjIYxFOk6jWtnJbnAATMwCByKO8zOTRhNK+gmYXVxXSXK2lCEe5KyqjRCe91yqAJR6oigh/PAcjiUULQtimkEMS0kejHCfy9W+1Q5XGsfren4U6et5IOLDHluvNpY6k36eXMyzxg3Y7XPRejbwD52X51b3355UWftkUjCodGpShm7qnD3aT/S+a/UtQIcA95MGRDqS1ZvbQC5bJXgQziQLm5lCErpKDLW+Zcz8mOWv1FaqNL4rtmbQADj4sxmIQqSXBJvg8AJwFcaOrxN0HSAH2YoElHEsO/hdDIKPV16oe7Lfi9TkVR37aWdK1D+e8lozL2ZggFIPduucwTqfzPbHnNn6rUvy53mBlOtu9YNl9B10cnyzEIUIV38TYOEHPiKS+jp9+ROgTXbSj3/1hk9SGLiXideTD/oR5gsPKaEwNugDx0sHtjBhUR5Zk2UjAd9QoEpKrxDMVPOuYaEXHWFKlvX4VTrDiBTXRqz9uTMhJ8TuvsyU247aNc5dO8/AupA8L5nY1eDff4jOKe/grr50IQ/F0LzP/TrSy7P6Q7YeTGvyJnutcFXZGDZ1fmKGUnqI7E8K24Zz3ICaTEDLZBhiXF8EduRb8y/NvrlHkkaVp/RfbtXVT/8BxsH3BFWnLqLAAAAAElFTkSuQmCC"
+                  class="me-1 align-bottom"
+                  alt="google"
+                />
+                Google
+              </a>
+              <a
+                href="#"
+                class="w-100 border rounded bg-light py-3 text-center mb-6 mb-lg-6"
+              >
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB7ZRPTsJQEMZnKiC6goUYExPKCSw36A3UBRHdiAsSYWNvgDcAEv8lbmDXxIXeQLkBnIAuTDRsZGFEQN44BVr6aDVq4kq/RZs3M+/X72XmFeBPC4OCW0Y7ttRf1glxE8SoYV6s1ZzcbuHREAgqCmp6459C9/IdTYTpmlOqvSaALr8sLozxwuIdultMZI3ehttXl+vND6HZwwcVFOXWAX5JDH5dfEnfVFJdJ6RIBYrt4hvAsS1Uo4OoIWNkagl+pIX9QGim2NF8LhFa/LTkENrHbMxR1Uz+XvNBQyR0aTNBxTxNaNFIOI2TZtlds3qR55R5ltA5VpXchUK6DyoQJShNXEKtEu8S4bi7iNB1G0LCkkygsuEanNExSRKVSjyTMc4kCUmfGAVtp9ApM7xFQEcSlHM+KBfFpQnjrhJgGebEQMPFeD3Yc+wa/AW5UCKqgPRlUeVgfToBU2/c+fHRRXW+UQCj+qzOo2yxk+OXPatq0E1xlDOeYv3BsE3O1V3AA/Nk5S4QKsGJdPN8NReUt6G9Qf8YhcI/lUQN/uXVOwmnmnvnOFnQAAAAAElFTkSuQmCC"
+                  class="me-1 align-bottom"
+                  alt="discord"
+                />
+                Discord
+              </a>
+            </div>
+
+            <div class="form-floating mb-3 mt-6">
+              <input
+                type="text"
+                class="form-control rounded"
+                id="floatingAccount"
+                placeholder="帳號"
+              />
+              <label for="floatingAccount">帳號</label>
+            </div>
+
+            <div class="form-floating mb-3 position-relative">
+              <input
+                type="password"
+                class="form-control rounded"
+                id="floatingPassword"
+                placeholder="密碼"
+              />
+              <label for="floatingPassword "> 密碼 </label>
+              <span
+                class="material-icons-outlined text-Natural-50 align-bottom position-absolute end-0 top-50 translate-middle"
+                >visibility_off</span
+              >
+            </div>
+
+            <div
+              id="forgetpassword"
+              class="form-text text-end fs-b-md text-Natural-50 mb-3 px-2"
+            >
+              忘記密碼
+            </div>
+
+            <button
+              type="button"
+              class="btn btn-dark rounded border w-100 py-3 mb-4 fs-b-md fs-xl-md-b-md"
+            >
+              送出
+              <span class="material-icons-outlined align-top">
+                chevron_right
+              </span>
+            </button>
+
+            <div class="text-center">
+              <p class="text-Natural-50 me-1">
+                不是會員？
+                <a
+                  href="#"
+                  class="text-primary-60 text-decoration-underline"
+                  data-bs-toggle="modal"
+                  data-bs-target="#registerModal"
+                  data-bs-dismiss="modal"
+                >
+                  快速註冊
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 註冊Modal -->
+<div
+  class="modal fade"
+  id="registerModal"
+  tabindex="-1"
+  aria-labelledby="registerModal"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-centered modal-lg"
+    style="width: 90%; max-width: 1200px"
+  >
+    <div class="modal-content rounded">
+      <div
+        class="modal-body d-lg-flex flex-lg-row-reverse p-4 p-lg-0 border rounded"
+      >
+        <!-- 註冊圖片 -->
+        <div class="d-none d-lg-block">
+          <img
+            src="/web-layout-training-vite/assets/register-Cfh0nsYT.png"
+            alt="註冊圖片"
+            class="rounded-end img-fluid"
+            style="max-width: 700px"
+          />
+        </div>
+
+        <!-- 註冊資訊 -->
+        <div class="d-lg-flex flex-lg-column w-100 px-3 px-lg-5 py-3 py-lg-0">
+          <div class="text-end">
+            <button
+              type="button"
+              class="btn-close mt-3 mt-lg-6 me-3 me-lg-6"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <h1 class="fw-bold text-center mb-4 mb-lg-9 fs-lg-md-t-4xl fs-t-4xl">
+            註冊
+          </h1>
+
+          <div>
+            <div
+              class="d-lg-flex flex-lg-column d-flex flex-column border-bottom"
+            >
+              <a
+                href="#"
+                class="w-100 border rounded bg-light py-3 text-center mb-3 mb-lg-4"
+              >
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJfSURBVHgBtVTNbtNAEJ5Z2xWYn7q3hpMLFyQO5BCqHJDYKnBOaHtohUTDE0AugMSBSOUByhMkuVCCQIQzIXElDhVEarghcag5VAWkSE5pocLxLmu3buw0dSJV/SRb49mZb76Z3TXCENikSd23Y8aqOSgejyZKUIngAiDPiDCtu8It4FhxGC/FjIYxFOk6jWtnJbnAATMwCByKO8zOTRhNK+gmYXVxXSXK2lCEe5KyqjRCe91yqAJR6oigh/PAcjiUULQtimkEMS0kejHCfy9W+1Q5XGsfren4U6et5IOLDHluvNpY6k36eXMyzxg3Y7XPRejbwD52X51b3355UWftkUjCodGpShm7qnD3aT/S+a/UtQIcA95MGRDqS1ZvbQC5bJXgQziQLm5lCErpKDLW+Zcz8mOWv1FaqNL4rtmbQADj4sxmIQqSXBJvg8AJwFcaOrxN0HSAH2YoElHEsO/hdDIKPV16oe7Lfi9TkVR37aWdK1D+e8lozL2ZggFIPduucwTqfzPbHnNn6rUvy53mBlOtu9YNl9B10cnyzEIUIV38TYOEHPiKS+jp9+ROgTXbSj3/1hk9SGLiXideTD/oR5gsPKaEwNugDx0sHtjBhUR5Zk2UjAd9QoEpKrxDMVPOuYaEXHWFKlvX4VTrDiBTXRqz9uTMhJ8TuvsyU247aNc5dO8/AupA8L5nY1eDff4jOKe/grr50IQ/F0LzP/TrSy7P6Q7YeTGvyJnutcFXZGDZ1fmKGUnqI7E8K24Zz3ICaTEDLZBhiXF8EduRb8y/NvrlHkkaVp/RfbtXVT/8BxsH3BFWnLqLAAAAAElFTkSuQmCC"
+                  class="me-1 align-bottom"
+                  alt="google"
+                />
+                Google
+              </a>
+              <a
+                href="#"
+                class="w-100 border rounded bg-light py-3 text-center mb-6 mb-lg-6"
+              >
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB7ZRPTsJQEMZnKiC6goUYExPKCSw36A3UBRHdiAsSYWNvgDcAEv8lbmDXxIXeQLkBnIAuTDRsZGFEQN44BVr6aDVq4kq/RZs3M+/X72XmFeBPC4OCW0Y7ttRf1glxE8SoYV6s1ZzcbuHREAgqCmp6459C9/IdTYTpmlOqvSaALr8sLozxwuIdultMZI3ehttXl+vND6HZwwcVFOXWAX5JDH5dfEnfVFJdJ6RIBYrt4hvAsS1Uo4OoIWNkagl+pIX9QGim2NF8LhFa/LTkENrHbMxR1Uz+XvNBQyR0aTNBxTxNaNFIOI2TZtlds3qR55R5ltA5VpXchUK6DyoQJShNXEKtEu8S4bi7iNB1G0LCkkygsuEanNExSRKVSjyTMc4kCUmfGAVtp9ApM7xFQEcSlHM+KBfFpQnjrhJgGebEQMPFeD3Yc+wa/AW5UCKqgPRlUeVgfToBU2/c+fHRRXW+UQCj+qzOo2yxk+OXPatq0E1xlDOeYv3BsE3O1V3AA/Nk5S4QKsGJdPN8NReUt6G9Qf8YhcI/lUQN/uXVOwmnmnvnOFnQAAAAAElFTkSuQmCC"
+                  class="me-1 align-bottom"
+                  alt="discord"
+                />
+                Discord
+              </a>
+            </div>
+
+            <div class="form-floating mb-3 mt-6">
+              <input
+                type="text"
+                class="form-control rounded"
+                id="floatingAccount"
+                placeholder="帳號"
+              />
+              <label for="floatingAccount">帳號</label>
+            </div>
+
+            <div class="form-floating mb-3 position-relative">
+              <input
+                type="password"
+                class="form-control rounded"
+                id="floatingPassword"
+                placeholder="密碼"
+              />
+              <label for="floatingPassword "> 密碼 </label>
+              <span
+                class="material-icons-outlined text-Natural-50 align-bottom position-absolute end-0 top-50 translate-middle"
+                >visibility_off</span
+              >
+            </div>
+
+            <div class="form-floating mb-3 position-relative">
+              <input
+                type="password"
+                class="form-control rounded"
+                id="floatingPassword"
+                placeholder="密碼"
+              />
+              <label for="floatingPassword "> 密碼 </label>
+              <span
+                class="material-icons-outlined text-Natural-50 align-bottom position-absolute end-0 top-50 translate-middle"
+                >visibility_off</span
+              >
+            </div>
+
+            <div class="form-floating mb-3 position-relative">
+              <input
+                type="password"
+                class="form-control rounded"
+                id="floatingPassword"
+                placeholder="確認密碼"
+              />
+              <label for="floatingPassword "> 確認密碼 </label>
+              <span
+                class="material-icons-outlined text-Natural-50 align-bottom position-absolute end-0 top-50 translate-middle"
+                >visibility_off</span
+              >
+            </div>
+
+            <div class="form-check mb-4">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="agree"
+                id="agree"
+              />
+              <label class="form-check-label fs-lg-md-b-sm fs-b-sm" for="agree">
+                我同意
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#termsModal"
+                  data-bs-dismiss="modal"
+                  class="mx-1 fs-lg-md-b-sm fs-b-sm"
+                  style="text-decoration: underline"
+                >
+                  服務條款
+                </a>
+                和
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#privacyModal"
+                  data-bs-dismiss="modal"
+                  class="ms-1 fs-lg-md-b-sm fs-b-sm"
+                  style="text-decoration: underline"
+                >
+                  隱私政策
+                </a>
+              </label>
+            </div>
+
+            <button
+              type="button"
+              class="btn btn-dark rounded border w-100 py-3 mb-4 fs-b-md fs-xl-md-b-md"
+            >
+              送出
+              <span class="material-icons-outlined align-top">
+                chevron_right
+              </span>
+            </button>
+
+            <div class="text-center">
+              <p class="text-Natural-50 me-1">
+                已經會員？
+                <a
+                  href="#"
+                  class="text-primary-60 text-decoration-underline"
+                  data-bs-toggle="modal"
+                  data-bs-target="#loginModal"
+                  data-bs-dismiss="modal"
+                >
+                  直接登入
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 服務條款 Modal -->
+<div
+  class="modal fade"
+  id="termsModal"
+  tabindex="-1"
+  aria-labelledby="termsModalLabel"
+  aria-hidden="true"
+>
+  <!-- Modal 滾動 (modal-dialog modal-dialog-scrollable) -->
+  <div
+    class="modal-dialog modal-dialog-centered modal-lg modal-dialog modal-dialog-scrollable"
+  >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="termsModalLabel">服務條款</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="關閉"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <!-- 在這裡放服務條款內容 -->
+        <div class="bg-Natural-95">
+          <div class="container">
+            <div class="row justify-content-center mx-0">
+              <div class="col-lg-10 my-lg-12 my-9">
+                <h1 class="text-center mb-6 mb-lg-9 fs-t-4xl fs-lg-md-t-4xl">
+                  用戶條款
+                </h1>
+                <p class="fs-b-lg fs-lg-md-b-lg mb-4 mb-lg-6">
+                  最後更新日期：2025 年 1 月 1 日
+                </p>
+                <p class="fs-b-md fs-lg-md-b-md">
+                  歡迎使用職旅
+                  WorkWay（以下簡稱「本平台」）。請詳細閱讀以下使用者條款，使用本平台即表示你同意本條款內容。
+                </p>
+
+                <div class="my-4 my-lg-6 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    一、帳號註冊與義務
+                  </h2>
+                  <ul class="fs-b-md fs-lg-md-b-md">
+                    <li>你必須提供真實、完整的註冊資料，並對帳號行為負責。</li>
+                    <li>不得冒用他人身份、或干擾他人使用本平台。</li>
+                  </ul>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    二、服務內容
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    本平台提供自由職涯相關服務，包括職涯諮詢、資源內容、顧問配對等功能。<br />
+                    我們保留變更、暫停、終止部分或全部服務的權利，恕不另行通知。
+                  </p>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    三、使用規範
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">你同意不從事以下行為：</p>
+                  <ul class="fs-b-md fs-lg-md-b-md">
+                    <li>上傳任何不實、具侵權或誤導性的資訊</li>
+                    <li>干擾平台正常運作或其他使用者體驗</li>
+                    <li>濫用諮詢資源或未經授權對外公開諮詢內容</li>
+                    <li>從事與本平台業務無關之商業推廣</li>
+                  </ul>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    四、智慧財產權
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    本平台所呈現內容（包含但不限於文字、圖片、圖像設計、程式碼）均為職旅
+                    WorkWay
+                    或其授權方所擁有。未經同意禁止擅自轉載、複製或用於其他用途。
+                  </p>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    五、終止與限制使用
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    如使用者違反本條款或法律規定，我們有權暫停或終止服務，無須事前通知。
+                  </p>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    六、責任限制
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    本平台所提供資訊與建議僅供參考，並不構成法律、財務、醫療等專業意見。我們不對使用本服務後的職涯結果或第三方服務負完全責任。
+                  </p>
+                </div>
+
+                <div>
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    七、準據法與爭議解決
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    本條款受中華民國法律管轄。如有爭議，雙方同意以台灣台北地方法院為第一審管轄法院。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          class="btn btn-secondary-50"
+          data-bs-target="#registerModal"
+          data-bs-toggle="modal"
+        >
+          返回註冊
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 隱私政策 Modal -->
+<div
+  class="modal fade"
+  id="privacyModal"
+  tabindex="-1"
+  aria-labelledby="privacyModalLabel"
+  aria-hidden="true"
+>
+  <!-- Modal 滾動 (modal-dialog modal-dialog-scrollable) -->
+  <div
+    class="modal-dialog modal-dialog-centered modal-lg modal-dialog modal-dialog-scrollable"
+  >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="privacyModalLabel">隱私政策</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="關閉"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <!-- 在這裡放隱私政策內容 -->
+        <div class="bg-Natural-95">
+          <div class="container">
+            <div class="row justify-content-center mx-0">
+              <div class="col-lg-10 my-lg-12 my-9">
+                <h1 class="text-center mb-6 mb-lg-9 fs-t-4xl fs-lg-md-t-4xl">
+                  隱私權政策
+                </h1>
+                <p class="fs-b-lg fs-lg-md-b-lg mb-4 mb-lg-6">
+                  最後更新日期：2025 年 1 月 1 日
+                </p>
+                <p class="fs-b-md fs-lg-md-b-md">
+                  我們重視你的個人隱私。當你使用職旅
+                  WorkWay（以下簡稱「本網站」或「我們」）的服務時，我們會依據本政策保護你的個人資料安全，並尊重你的資訊自主權。
+                </p>
+
+                <div class="my-4 my-lg-6 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    一、蒐集的資料類型
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    當你註冊帳號、填寫職涯計劃、進行諮詢預約或與我們聯繫時，我們可能會蒐集以下資訊：
+                  </p>
+                  <ul class="fs-b-md fs-lg-md-b-md">
+                    <li>基本資料：姓名、生日、性別、聯絡方式</li>
+                    <li>帳戶資料：登入資訊、電子郵件、密碼</li>
+                    <li>使用紀錄：登入時間、瀏覽行為、表單填寫內容</li>
+                    <li>付款資訊：若您進行付費，將透過第三方金流平台處理</li>
+                  </ul>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    二、資料使用目的
+                  </h2>
+                  <ul class="fs-b-md fs-lg-md-b-md">
+                    <li>提供你所需的顧問諮詢與職涯支援服務</li>
+                    <li>客製化職涯計劃與推薦內容</li>
+                    <li>用於通知、行銷或用戶研究（你可隨時取消訂閱）</li>
+                    <li>系統維運與安全防護用途</li>
+                  </ul>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    三、第三方分享
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    我們不會將你的個人資料出售或任意提供給第三方。僅在以下情況例外：
+                  </p>
+                  <ul class="fs-b-md fs-lg-md-b-md">
+                    <li>經你明確授權同意</li>
+                    <li>為完成支付流程與帳務處理（如第三方金流）</li>
+                    <li>符合法律規定或主管機關要求</li>
+                  </ul>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    四、使用者權利
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    你有權查閱、更正、刪除你的個人資料，亦可向我們請求停止處理或使用。
+                  </p>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    五、資料保存與安全
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    我們會採用合理技術與程序，保護你的個人資料安全。除非另有法定或業務必要，我們不會永久保留你的資料。
+                  </p>
+                </div>
+
+                <div class="my-4 my-lg-6">
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    六、Cookie 技術 我們可能使用 Cookie
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    來記錄用戶偏好與瀏覽行為，用以提升服務體驗。你可以透過瀏覽器設定停用。
+                  </p>
+                </div>
+
+                <div>
+                  <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                    七、政策更新
+                  </h2>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    我們保留隨時修改本政策之權利，重大變更將提前公告。
+                  </p>
+                  <p class="fs-b-md fs-lg-md-b-md">
+                    如對本政策有任何疑問，請聯繫：privacy@workway.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          class="btn btn-secondary-50"
+          data-bs-target="#registerModal"
+          data-bs-toggle="modal"
+        >
+          返回註冊
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <main class="bg-Natural-95">
+      <div class="container">
+        <div class="row justify-content-center mx-0">
+          <div class="col-lg-10 my-lg-12 my-9">
+            <h1 class="text-center mb-6 mb-lg-9 mt-9 fs-t-4xl fs-lg-md-t-4xl">
+              隱私權政策
+            </h1>
+            <p class="fs-b-lg fs-lg-md-b-lg mb-4 mb-lg-6">
+              最後更新日期：2025 年 1 月 1 日
+            </p>
+            <p class="fs-b-md fs-lg-md-b-md">
+              我們重視你的個人隱私。當你使用職旅
+              WorkWay（以下簡稱「本網站」或「我們」）的服務時，我們會依據本政策保護你的個人資料安全，並尊重你的資訊自主權。
+            </p>
+
+            <div class="my-4 my-lg-6 my-lg-6">
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                一、蒐集的資料類型
+              </h2>
+              <p class="fs-b-md fs-lg-md-b-md">
+                當你註冊帳號、填寫職涯計劃、進行諮詢預約或與我們聯繫時，我們可能會蒐集以下資訊：
+              </p>
+              <ul class="fs-b-md fs-lg-md-b-md">
+                <li>基本資料：姓名、生日、性別、聯絡方式</li>
+                <li>帳戶資料：登入資訊、電子郵件、密碼</li>
+                <li>使用紀錄：登入時間、瀏覽行為、表單填寫內容</li>
+                <li>付款資訊：若您進行付費，將透過第三方金流平台處理</li>
+              </ul>
+            </div>
+
+            <div class="my-4 my-lg-6">
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                二、資料使用目的
+              </h2>
+              <ul class="fs-b-md fs-lg-md-b-md">
+                <li>提供你所需的顧問諮詢與職涯支援服務</li>
+                <li>客製化職涯計劃與推薦內容</li>
+                <li>用於通知、行銷或用戶研究（你可隨時取消訂閱）</li>
+                <li>系統維運與安全防護用途</li>
+              </ul>
+            </div>
+
+            <div class="my-4 my-lg-6">
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">三、第三方分享</h2>
+              <p class="fs-b-md fs-lg-md-b-md">
+                我們不會將你的個人資料出售或任意提供給第三方。僅在以下情況例外：
+              </p>
+              <ul class="fs-b-md fs-lg-md-b-md">
+                <li>經你明確授權同意</li>
+                <li>為完成支付流程與帳務處理（如第三方金流）</li>
+                <li>符合法律規定或主管機關要求</li>
+              </ul>
+            </div>
+
+            <div class="my-4 my-lg-6">
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">四、使用者權利</h2>
+              <p class="fs-b-md fs-lg-md-b-md">
+                你有權查閱、更正、刪除你的個人資料，亦可向我們請求停止處理或使用。
+              </p>
+            </div>
+
+            <div class="my-4 my-lg-6">
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                五、資料保存與安全
+              </h2>
+              <p class="fs-b-md fs-lg-md-b-md">
+                我們會採用合理技術與程序，保護你的個人資料安全。除非另有法定或業務必要，我們不會永久保留你的資料。
+              </p>
+            </div>
+
+            <div class="my-4 my-lg-6">
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">
+                六、Cookie 技術 我們可能使用 Cookie
+              </h2>
+              <p class="fs-b-md fs-lg-md-b-md">
+                來記錄用戶偏好與瀏覽行為，用以提升服務體驗。你可以透過瀏覽器設定停用。
+              </p>
+            </div>
+
+            <div>
+              <h2 class="fs-t-xl fs-lg-md-t-xl mb-2 mb-lg-3">七、政策更新</h2>
+              <p class="fs-b-md fs-lg-md-b-md">
+                我們保留隨時修改本政策之權利，重大變更將提前公告。
+              </p>
+              <p class="fs-b-md fs-lg-md-b-md">
+                如對本政策有任何疑問，請聯繫：privacy@workway.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-Natural-95 border-top border-Natural-85">
+  <div
+    class="container py-6 d-xl-flex justify-content-lg-between align-items-center flex-wrap"
+  >
+    <ul class="nav justify-content-center align-items-center">
+      <li class="nav-item fs-b-md fs-lg-md-b-md py-2 px-4 mb-2">
+        <a class="nav-link text-dark" href="service.html">服務方案</a>
+      </li>
+      <li class="nav-item fs-b-md fs-lg-md-b-md py-2 px-4 mb-2">
+        <a class="nav-link text-dark" href="about.html">關於職旅</a>
+      </li>
+      <li class="nav-item fs-b-md fs-lg-md-b-md py-2 px-4 mb-2">
+        <a class="nav-link text-dark" href="contact.html">聯絡我們</a>
+      </li>
+      <li class="nav-item fs-b-md fs-lg-md-b-md py-2 px-4 mb-2">
+        <a class="nav-link text-dark" href="privacy_policy.html">隱私權政策</a>
+      </li>
+      <li class="nav-item fs-b-md fs-lg-md-b-md py-2 px-4 mb-2">
+        <a class="nav-link text-dark" href="terms.html">用戶條款</a>
+      </li>
+    </ul>
+    <p class="text-center fs-b-md fs-lg-md-b-sm text-Natural-50">
+      Copyright © 2025 職旅 workway. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
